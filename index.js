@@ -10,3 +10,10 @@ console.log("Even No",bag);
 
 
 
+let bag2 = " ";
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] % 2 != 0){
+        bag2 += arr[i] + " ";
+    }
+}
+console.log("Odd No",bag2);
